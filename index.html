@@ -1,0 +1,143 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a009d414bf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="move.js"></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar__container">
+    <i class="navbar__logo fas fa-meteor"></i>
+    <h2 class="navbar__title">Manuel Garcia</h2>
+    <h3 class="navbar__subtitle">Web Developer</h3>
+    </div>
+    <ul class="navbar__list">
+      <li class="navbar__item">
+        <a class="navbar__link" href="#inicio"><i class="separa fas fa-home"></i>Inicio</a>
+      </li>
+      <li class="navbar__item">
+        <a class="navbar__link" href="#portafolio"><i class="separa fab fa-flipboard"></i>Portafolio</a>
+      </li>
+      <li class="navbar__item">
+        <a class="navbar__link" href="#mi-curriculum"><i class="separa far fa-comment-alt"></i>Mi Curriculum</a>
+      </li>
+      <li class="navbar__item">
+        <a class="navbar__link" href="#contacto"><i class="separa fas fa-id-badge"></i>Contacto</a>
+      </li>
+    </ul>
+
+    <div class="icons">
+      <a class="icons__link" href="https://www.facebook.com/manueldejesus.garciacastillo.5/" target="_blank">
+        <i class="icons__icons fab fa-facebook-square"></i>
+      </a>
+      <a class="icons__link" href="https://www.instagram.com/manuelg_lev/" target="_blank">
+        <i class="icons__icons fab fa-instagram"></i>
+      </a>
+      <a class="icons__link" href="https://github.com/lvthan1fk" target="_blank">
+        <i class="icons__icons fab fa-github"></i>
+      </a>      
+      <a class="icons__link" href="www.linkedin.com/in/manuel-garcia-4375a0205" target="_blank">
+        <i class="icons__icons fab fa-linkedin"></i>
+      </a>
+      <a class="icons__link" href="https://x.com/ManuelGarc84944" target="_blank">
+        <i class="icons__icons fab fa-twitter-square"></i>
+      </a>
+    </div>
+        <p class="puntos">...</p>
+  </nav>
+
+  <div class="container">
+    <section id="inicio" class="inicio">
+      <h1 class="inicio__title">Hola soy Desarrollador Web Junior</h1>
+      <h2 class="inicio__subtitle">!Este es mi portafolio¡</h2>
+      <a class="inicio__button" href="#portafolio">Ver más</a>
+      <div class="inicio__arrow"><i class="fas fa-chevron-down"></i> </div>
+    </section>
+
+    <section id="portafolio" class="portafolio">
+      <h2 class="portafolio__title">Portafolio</h2>
+      <div class="flex-zone">
+
+        <div class="container-img">          
+            <a class="portafolio__link" href="" target="_blank">
+              <img class="portafolio__img" src="" alt="Formulario ">
+            </a>
+            <h3 class="portafolio__subtitle">Formulario /h3>
+        </div>    
+
+        <div class="container-img">          
+          <a class="portafolio__link" href="" target="_blank">
+            <img class="portafolio__img" src="" alt="Pagina ">
+          </a>
+          <h3 class="portafolio__subtitle">Pagina </h3>
+        </div>
+          
+        <div class="container-img">        
+          <a class="portafolio__link" href="" target="_blank">
+            <img class="portafolio__img" src="" alt="Negocio Ventas">
+          </a>
+          <h3 class="portafolio__subtitle">Negocio Ventas</h3>
+        </div>
+
+        <div class="container-img">          
+          <a class="portafolio__link" href="" target="_blank">
+            <img class="portafolio__img" src="" alt="Documentacion JS">
+          </a>
+          <h3 class="portafolio__subtitle">Documentacion JS</h3>
+        </div>
+
+        <div class="container-img">         
+          <a class="portafolio__link" href="" target="_blank">
+            <img class="portafolio__img" src="" alt="Calculadora">
+          </a>
+          <h3 class="portafolio__subtitle">Calculadora</h3>
+        </div>
+
+        <div class="container-img">          
+          <a class="portafolio__link" href="" target="_blank">
+            <img class="portafolio__img" src="" alt="#">
+          </a>
+          <h3 class="portafolio__subtitle">Proximamente</h3>
+        </div>
+      </div>  
+     </section>
+
+    <section id="mi-curriculum" class="mi-curriculum">
+  <h2 class="mi-curriculum__title">Mi Curriculum</h2>
+  <p class="mi-curriculum__text">
+    Puedes ver y descargar mi curriculum actualizado haciendo clic en el siguiente enlace:
+  </p>
+  <a class="mi-curriculum__link" href="curriculum.pdf" download="Manuel_Garcia_CV.pdf">
+    Descargar Curriculum
+  </a>
+</section>
+    <section id="mi-persona" class="mi-persona">
+      <h2 class="mi-persona__title">Who am i? </h2>
+      <div class="mi-persona__img__container">
+      </div>
+      <p class="mi-persona__text">I am Manuel Garcia, Junior systems engineering web developer, passionate about HTML and Python, learning new things, 24 years old .
+I have already completed my university degree, but now I am studying my own techniques related to
+Frontend and backend development, I like things related to web development, video games and anime..</p>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2 class="contacto__title">Contacto</h2>
+      <p class="contacto__text"> Puedes contactarme por mis distintas redes sociales de la barra lateral izquierda, pero si por alguna razón quieres dejarme un Email, a mi correo personal aca lo puedes hacer. Aunque recalco, que este contacto es mas importante, por ende no contestare a menos que sea de importancia.</p>
+
+        <input class="contacto__name" type="text" placeholder="Name">
+        <input class="contacto__email" type="email" placeholder="Email"><br>
+        <textarea class="contacto__mensaje" cols="40" rows="5" placeholder="Mensaje"></textarea><br>
+        <input class="contacto__enviar" type="submit" value="Enviar Mensaje">
+      
+    </section>
+
+  <footer class="footer">
+    <p class="footer__text">Hecho por mi &copy; Manuelgc </p>
+  </footer>
+  </div>
+  
+</body>
+</html>
